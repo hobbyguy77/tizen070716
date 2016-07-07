@@ -13,5 +13,6 @@
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.spp"/>
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.admin"/>
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.health"/>
+    <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
     <tizen:profile name="mobile"/>
 </widget>

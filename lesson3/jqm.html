@@ -10,6 +10,8 @@
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>	
         <script src="js/vibro.js"></script>	
+        <script src="js/camera.js"></script>	
+        <script src="js/wi_fi.js"></script>	
 		<script>		
 
 			window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
@@ -19,14 +21,7 @@
 			});
 		</script>
     </head>
-	<body>		
-	
-	
-<!-- 		<div data-role="page" id="selfy_cam" data-theme="a"> -->
-<!-- 			<div data-role="content" >	 -->
-<!-- 				<div id="camera"></div> -->
-<!-- 			</div> -->
-<!-- 		</div>		 -->
+	<body>			
 	
 		<div data-role="page" id="main_page" data-theme="a">
 			<div data-role="header" >
@@ -37,6 +32,7 @@
 				<ul data-role="listview" data-inset="true" data-theme="a">
 					<li><a href="#search">Поиск</a></li>
 					<li><a href="#contact">Связаться с нами</a></li>
+					<li><a href="#selfy_cam">Камера</a></li>
 				</ul>
 			</div>
 			<div data-role="footer">
@@ -92,6 +88,8 @@
 				<button onclick = "singleVib()">Single Vibration</button>
 				<button onclick = "multiVib()">Multi Vibration</button>
 				<button onclick = "stopVib()">Stop Vibration</button>
+				
+				<div class="connection-status"></div>
 			</div>
 
 		</div>
@@ -107,5 +105,11 @@
 			</div>
 
 		</div>
+		
+		<div data-role="page" id="selfy_cam" data-theme="a">
+			<div data-role="content" >	
+				<div id="camera"></div>
+			</div>
+		</div>	
 	</body>
 </html>
