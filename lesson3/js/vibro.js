@@ -7,8 +7,8 @@ function singleVib() {
 }
 
 function multiVib() {
-	var command = "[2000";
-	for (var i = 2000; i > 200; i = i - 200)
+	var command = "[1000";
+	for (var i = 1000; i > 50; i = i - 50)
 		command = command + "," + i;
 	command = command + "]";
 	var array = JSON.parse(command);

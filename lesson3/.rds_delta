@@ -1,8 +1,6 @@
 #delete
 #add
-res/wgt/js/wi_fi.js
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/jqm.html
-res/wgt/js/camera.js
+res/wgt/js/vibro.js
