@@ -12,6 +12,7 @@
         <script src="js/vibro.js"></script>	
         <script src="js/camera.js"></script>	
         <script src="js/wi_fi.js"></script>	
+        <script src="js/filesys.js"></script>	
 		<script>		
 
 			window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
@@ -32,6 +33,7 @@
 				<ul data-role="listview" data-inset="true" data-theme="a">
 					<li><a href="#search">Поиск</a></li>
 					<li><a href="#contact">Связаться с нами</a></li>
+					<li><a href="#file_sys">FileSystem</a></li>
 					<li><a href="#selfy_cam">Камера</a></li>
 				</ul>
 			</div>
@@ -102,6 +104,20 @@
 				<input type="search" name="search_form" id="search" value="" />
 				<ul data-role="listview" data-inset="true" id="searchresult">					
 				</ul>
+			</div>
+
+		</div>
+		
+		<div data-role="page" id="file_sys" data-theme="a">
+			<div data-role="header" >
+				<h1>File System</h1>
+			</div>
+			<div data-role="content" >	
+				<button onclick = "writeFile()">Write File</button>
+				<button onclick = "readFile()">Read File</button>
+				<button onclick = "deleteFile()">Delete File</button>
+				<div id="file_text1"></div>
+				<div id="file_text2"></div>
 			</div>
 
 		</div>

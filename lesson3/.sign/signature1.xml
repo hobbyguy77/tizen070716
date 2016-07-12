@@ -8,11 +8,11 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NDc2ouGjgc3sHBxyN/X/pOx9jxNa/XPRAuEX41d12/8=</DigestValue>
+<DigestValue>LsX4asB5dx9CPK1fZBTWWfJsCM81bVeElw36RNQGdVM=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>8D1rtIlXG9LEMYG2VO4wSaQzujyIA45qRKS4Yyy1B9c=</DigestValue>
+<DigestValue>U4p0k/1T3q8uDoZ5wMe9Vsz4DiJvgU2x/Od9kIWXP7M=</DigestValue>
 </Reference>
 <Reference URI="css%2Fjquery.mobile-1.4.5.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -40,11 +40,15 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vNDlHmY0MWg4/5L8GbPj/kMUF5Qe6N/4rdkAjLNZIyQ=</DigestValue>
+<DigestValue>8uhKTdh89CJS20mq7w6trFXd4Fs6aw6Cduo2PeDdjks=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcamera.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>aCJWB8oLkwsGDjhtrpdjXrJ9ZPTj+gcBXGG/EiM4uTo=</DigestValue>
+</Reference>
+<Reference URI="js%2Ffilesys.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cIyUwiFHTWtNVgFQYpgYi1ouBDYv/TRzhaXodXh3KNQ=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-2.0.0.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -72,7 +76,7 @@
 </Reference>
 <Reference URI="js%2Fvibro.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>rfUwbJPDQpNXSIs02avuNsm4iPAs7Td5cIo/XPzYBTs=</DigestValue>
+<DigestValue>dKFeLy+R/SadMyMxyo/4GkYcd78jdHkQaeYYCEyOGwI=</DigestValue>
 </Reference>
 <Reference URI="js%2Fwebsql_rss_db.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -99,11 +103,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-U+eFjdefiRGaXVDBMiH3Yzrr4hYG4H2FeD5SLwPgccGxEg7x2GLUd/FxX8VVc3MXXj/hvitYZerQ
-/0axthSWDrOOgXv3bien+wxMfD/XOgFW82X1LYhpK85RRvsb97Gbc2Vtl5AYxQUyfF1fKB3jP+58
-S0iswFC+m4zKEvVxWKnI49Pr19sNHUQZLBXN1tdSO7NuGYeRr9mjM+DeyZphuGzEfMowJuIUXAEm
-ok1An1kOmPsokZjNFhp4jmI5tUCaTC9r6wQsmXla2k5bd6QEab0uuFREj5UPnf4jJifq47Zl2JGr
-D43DTvMpGHqtDAA8iX7ZKmCbl+lQ9iaoxj0g5g==
+AcQTYnK6CXeWEzVTtJZfYDLlQoptDaw98j1Y74H1k8U1Cp2SNu3Yj2Fr32/lwfOBukn6wuz6edrM
+xSzL20kmi5xQ6/X0HUfmIGmC2SVw+4S464K5xQmTqHZR9rVehCvw67PAH2mENlntijJKEJkSKj5i
+kT7Zl8HjonCZWbXo0P2rnvfKF8C2ThK2CQBUNCpXOmx11uZ3TZZJRDZS2rxf9PI7aubvZt8tNWPN
+ijG4Pb62LV82HZdEcl7csnrinW7d4mCqltwFxzWAN2B63OT88+yWXh8O8h5iY4QN+GFWf7LN8pko
+KYcs5M0I8jTgWE9d8wSPjA7GDr1JvmN8KXszZw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
